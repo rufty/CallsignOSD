@@ -1,0 +1,7 @@
+I've been using 600mW 5665MHz FPV modules for HamTV and I wanted to overlay my callsign on the video stream.
+There are several kinds of cheap modules to overlay data, based around the MinimOSD board. The firmware is
+open source GPL3 and the first one I got to work on my setup was https://github.com/ShikOfTheRa/scarab-osd
+This has many, many features, all of which are not needed for HamTV (false horizon? velocity and heading?)
+So I gave the code a very severe prune and this is the result: it just displays the callsign and an
+alternating +/- symbol, just to show it's still alive. I might add back the GPS, but displaying Maidenhead.
+Bill Hill (M1BKF) <bugs@wbh.org> 2017-09-08
